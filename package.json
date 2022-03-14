@@ -47,7 +47,6 @@
     "typedef",
     "avro"
   ],
-  "exports": {},
   "scripts": {
     "build": "rm -rf ./dist && microbundle build -f cjs",
     "prepublishOnly": "npm run build",
